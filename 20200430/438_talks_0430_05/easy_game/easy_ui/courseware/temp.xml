@@ -1,0 +1,17 @@
+<ui>
+  <window name="temp" desc="" ui="template" type="com.easyegret.ui.Group" template="false">
+    <property name="showBg" value="false" type="boolean"/>
+    <property name="border" value="false" type="boolean"/>
+    <window name="img" desc="" type="com.easyegret.ui.Image" template="false">
+      <property name="texture" value="E:\items\2020\UI\438_20200417_01\切图\play.png" type="bitmapdata"/>
+      <property name="x" value="21" type="number"/>
+      <property name="y" value="21" type="number"/>
+      <property name="width" value="58" type="number"/>
+      <property name="height" value="58" type="number"/>
+    </window>
+  </window>
+  <resources>
+    <res id="pause">E:\items\2020\UI\438_20200417_01\切图\pause.png</res>
+    <res id="play">E:\items\2020\UI\438_20200417_01\切图\play.png</res>
+  </resources>
+</ui>

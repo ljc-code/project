@@ -1,0 +1,373 @@
+<ui>
+  <window name="index2" desc="" ui="view" type="com.easyegret.ui.Group" template="false">
+    <property name="showBg" value="false" type="boolean"/>
+    <property name="border" value="false" type="boolean"/>
+    <property name="width" value="640" type="number"/>
+    <property name="height" value="960" type="number"/>
+    <window name="group" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="bgColor" value="0xffffff" type="int16"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="width" value="640" type="number"/>
+      <property name="height" value="960" type="number"/>
+    </window>
+    <window name="imgas" desc="" type="com.easyegret.ui.Image" template="false">
+      <property name="texture" value="E:\items\2020\UI\438_20200430_01\效果图\2.jpg" type="bitmapdata"/>
+      <property name="x" value="-230" type="number"/>
+      <property name="y" value="-114" type="number"/>
+      <property name="width" value="1100" type="number"/>
+      <property name="height" value="1188" type="number"/>
+      <property name="visible" value="false" type="boolean"/>
+    </window>
+    <window name="groupAll" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="showBg" value="false" type="boolean"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="width" value="640" type="number"/>
+      <property name="height" value="960" type="number"/>
+      <property name="horizontalEnabled" value="true" type="boolean"/>
+      <property name="verticalEnabled" value="true" type="boolean"/>
+      <window name="imgBg" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\page08-03.png" type="bitmapdata"/>
+        <property name="x" value="-230" type="number"/>
+        <property name="y" value="-114" type="number"/>
+        <property name="width" value="1100" type="number"/>
+        <property name="height" value="1188" type="number"/>
+      </window>
+      <window name="imgGray" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-3.png" type="bitmapdata"/>
+        <property name="x" value="20.75" type="number"/>
+        <property name="y" value="167.85" type="number"/>
+        <property name="width" value="598" type="number"/>
+        <property name="height" value="679" type="number"/>
+      </window>
+      <window name="img1" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_05\切图\page3_01.png" type="bitmapdata"/>
+        <property name="width" value="155" type="number"/>
+        <property name="height" value="21" type="number"/>
+      </window>
+      <window name="img2" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_05\切图\page3_02.png" type="bitmapdata"/>
+        <property name="x" value="153" type="number"/>
+        <property name="width" value="487" type="number"/>
+        <property name="height" value="21" type="number"/>
+      </window>
+      <window name="imgWord1" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-1.png" type="bitmapdata"/>
+        <property name="x" value="22" type="number"/>
+        <property name="y" value="61" type="number"/>
+        <property name="width" value="520" type="number"/>
+        <property name="height" value="44" type="number"/>
+      </window>
+      <window name="imgWord2" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-2.png" type="bitmapdata"/>
+        <property name="x" value="28" type="number"/>
+        <property name="y" value="134" type="number"/>
+        <property name="width" value="463" type="number"/>
+        <property name="height" value="27" type="number"/>
+      </window>
+      <window name="imgLeft1" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-4.png" type="bitmapdata"/>
+        <property name="x" value="29" type="number"/>
+        <property name="y" value="192" type="number"/>
+        <property name="width" value="317" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgLeft2" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-5.png" type="bitmapdata"/>
+        <property name="x" value="29" type="number"/>
+        <property name="y" value="246" type="number"/>
+        <property name="width" value="581" type="number"/>
+        <property name="height" value="26" type="number"/>
+      </window>
+      <window name="imgLeft3" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-6.png" type="bitmapdata"/>
+        <property name="x" value="29" type="number"/>
+        <property name="y" value="300" type="number"/>
+        <property name="width" value="502" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgLeft4" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-7.png" type="bitmapdata"/>
+        <property name="x" value="29" type="number"/>
+        <property name="y" value="352" type="number"/>
+        <property name="width" value="343" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgLeft5" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-8.png" type="bitmapdata"/>
+        <property name="x" value="29" type="number"/>
+        <property name="y" value="409" type="number"/>
+        <property name="width" value="527" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgLeft6" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-9.png" type="bitmapdata"/>
+        <property name="x" value="29" type="number"/>
+        <property name="y" value="464" type="number"/>
+        <property name="width" value="554" type="number"/>
+        <property name="height" value="26" type="number"/>
+      </window>
+      <window name="imgLeft7" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-10.png" type="bitmapdata"/>
+        <property name="x" value="28" type="number"/>
+        <property name="y" value="517" type="number"/>
+        <property name="width" value="317" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgLeft8" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-11.png" type="bitmapdata"/>
+        <property name="x" value="32" type="number"/>
+        <property name="y" value="574" type="number"/>
+        <property name="width" value="527" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgLeft9" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-12.png" type="bitmapdata"/>
+        <property name="x" value="35" type="number"/>
+        <property name="y" value="626" type="number"/>
+        <property name="width" value="391" type="number"/>
+        <property name="height" value="26" type="number"/>
+      </window>
+      <window name="imgLeft10" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-13.png" type="bitmapdata"/>
+        <property name="x" value="30" type="number"/>
+        <property name="y" value="681" type="number"/>
+        <property name="width" value="553" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgLeft11" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-14.png" type="bitmapdata"/>
+        <property name="x" value="31" type="number"/>
+        <property name="y" value="738" type="number"/>
+        <property name="width" value="501" type="number"/>
+        <property name="height" value="26" type="number"/>
+      </window>
+      <window name="imgLeft12" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-15.png" type="bitmapdata"/>
+        <property name="x" value="33" type="number"/>
+        <property name="y" value="791" type="number"/>
+        <property name="width" value="447" type="number"/>
+        <property name="height" value="25" type="number"/>
+      </window>
+      <window name="imgKuang1" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="188" type="number"/>
+        <property name="width" value="500" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang2" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="243" type="number"/>
+        <property name="width" value="590" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang3" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="295" type="number"/>
+        <property name="width" value="520" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang4" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="347" type="number"/>
+        <property name="width" value="500" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang5" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="404" type="number"/>
+        <property name="width" value="550" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="btnAgain" desc="" type="com.easyegret.ui.Button" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-17.png" type="bitmapdata"/>
+        <property name="width" value="133" type="number"/>
+        <property name="height" value="47" type="number"/>
+        <property name="x" value="467" type="number"/>
+        <property name="y" value="883" type="number"/>
+      </window>
+      <window name="btnPage" desc="" type="com.easyegret.ui.Button" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page2-16.png" type="bitmapdata"/>
+        <property name="width" value="133" type="number"/>
+        <property name="height" value="47" type="number"/>
+        <property name="x" value="27" type="number"/>
+        <property name="y" value="883" type="number"/>
+      </window>
+      <window name="imgKuang6" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="460" type="number"/>
+        <property name="width" value="570" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang7" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="512" type="number"/>
+        <property name="width" value="500" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang8" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="569" type="number"/>
+        <property name="width" value="550" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang9" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="623" type="number"/>
+        <property name="width" value="500" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang10" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="678" type="number"/>
+        <property name="width" value="570" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang11" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="734" type="number"/>
+        <property name="width" value="550" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="imgKuang12" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\kuang.png" type="bitmapdata"/>
+        <property name="scale9GridEnable" value="true" type="boolean"/>
+        <property name="scale9GridX" value="10" type="int"/>
+        <property name="scale9GridY" value="10" type="int"/>
+        <property name="scale9GridWidth" value="14" type="int"/>
+        <property name="scale9GridHeight" value="16" type="int"/>
+        <property name="x" value="25" type="number"/>
+        <property name="y" value="787" type="number"/>
+        <property name="width" value="500" type="number"/>
+        <property name="height" value="35" type="number"/>
+      </window>
+      <window name="groupMask" desc="" type="com.easyegret.ui.Group" template="false">
+        <property name="showBg" value="false" type="boolean"/>
+        <property name="border" value="false" type="boolean"/>
+        <property name="width" value="640" type="number"/>
+        <property name="height" value="960" type="number"/>
+        <property name="horizontalEnabled" value="true" type="boolean"/>
+        <property name="verticalEnabled" value="true" type="boolean"/>
+        <property name="visible" value="false" type="boolean"/>
+        <window name="mask1" desc="" type="com.easyegret.ui.Group" template="false">
+          <property name="bgColor" value="0x0" type="int16"/>
+          <property name="border" value="false" type="boolean"/>
+          <property name="width" value="640" type="number"/>
+          <property name="height" value="960" type="number"/>
+          <property name="alpha" value="0.5" type="number"/>
+        </window>
+        <window name="groupLabel" desc="" type="com.easyegret.ui.Group" template="false">
+          <property name="bgColor" value="0x999999" type="int16"/>
+          <property name="border" value="false" type="boolean"/>
+          <property name="x" value="120" type="number"/>
+          <property name="y" value="330" type="number"/>
+          <property name="width" value="400" type="number"/>
+          <property name="height" value="200" type="number"/>
+          <window name="label1" desc="" type="com.easyegret.ui.Label" template="false">
+            <property name="fontSize" value="35" type="int"/>
+            <property name="hAlign" value="center" type="array_string"/>
+            <property name="autoSize" value="false" type="boolean"/>
+            <property name="bold" value="true" type="boolean"/>
+            <property name="width" value="400" type="number"/>
+            <property name="height" value="33.8" type="number"/>
+            <property name="y" value="41" type="number"/>
+            <property name="showBg" value="false" type="boolean"/>
+            <property name="border" value="false" type="boolean"/>
+          </window>
+          <window name="label2" desc="" type="com.easyegret.ui.Label" template="false">
+            <property name="fontSize" value="30" type="int"/>
+            <property name="hAlign" value="center" type="array_string"/>
+            <property name="autoSize" value="false" type="boolean"/>
+            <property name="width" value="400" type="number"/>
+            <property name="height" value="33.8" type="number"/>
+            <property name="y" value="85" type="number"/>
+            <property name="showBg" value="false" type="boolean"/>
+            <property name="border" value="false" type="boolean"/>
+          </window>
+          <window name="label3" desc="" type="com.easyegret.ui.Label" template="false">
+            <property name="fontSize" value="30" type="int"/>
+            <property name="hAlign" value="center" type="array_string"/>
+            <property name="autoSize" value="false" type="boolean"/>
+            <property name="width" value="400" type="number"/>
+            <property name="height" value="33.8" type="number"/>
+            <property name="y" value="129" type="number"/>
+            <property name="showBg" value="false" type="boolean"/>
+            <property name="border" value="false" type="boolean"/>
+          </window>
+        </window>
+      </window>
+    </window>
+    <window name="temp" desc="" path="courseware/temp.xml" type="CLASS" template="true">
+      <property name="x" value="540" type="number"/>
+      <property name="rightEnabled" value="true" type="boolean"/>
+    </window>
+  </window>
+  <resources>
+    <res id="2" merger="false">E:\items\2020\UI\438_20200430_01\效果图\2.jpg</res>
+  </resources>
+</ui>

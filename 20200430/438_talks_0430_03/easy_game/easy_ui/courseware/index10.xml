@@ -1,0 +1,92 @@
+<ui>
+  <window name="index10" desc="" ui="view" type="com.easyegret.ui.Group" template="false">
+    <property name="showBg" value="false" type="boolean"/>
+    <property name="border" value="false" type="boolean"/>
+    <property name="width" value="640" type="number"/>
+    <property name="height" value="960" type="number"/>
+    <window name="group" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="bgColor" value="0xffffff" type="int16"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="width" value="640" type="number"/>
+      <property name="height" value="960" type="number"/>
+    </window>
+    <window name="imgas" desc="" type="com.easyegret.ui.Image" template="false">
+      <property name="texture" value="E:\items\2020\UI\438_20200325_01\效果图\11.jpg" type="bitmapdata"/>
+      <property name="x" value="-51.5" type="number"/>
+      <property name="y" value="13" type="number"/>
+      <property name="width" value="743" type="number"/>
+      <property name="height" value="934" type="number"/>
+      <property name="visible" value="false" type="boolean"/>
+    </window>
+    <window name="groupAll" desc="" type="com.easyegret.ui.Group" template="false">
+      <property name="showBg" value="false" type="boolean"/>
+      <property name="border" value="false" type="boolean"/>
+      <property name="width" value="640" type="number"/>
+      <property name="height" value="960" type="number"/>
+      <property name="horizontalEnabled" value="true" type="boolean"/>
+      <property name="verticalEnabled" value="true" type="boolean"/>
+      <window name="imgBg" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\page10-01.png" type="bitmapdata"/>
+        <property name="x" value="-51" type="number"/>
+        <property name="y" value="36" type="number"/>
+        <property name="width" value="743" type="number"/>
+        <property name="height" value="802" type="number"/>
+      </window>
+      <window name="img1" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\page03-01.png" type="bitmapdata"/>
+        <property name="y" value="837" type="number"/>
+        <property name="width" value="154" type="number"/>
+        <property name="height" value="21" type="number"/>
+      </window>
+      <window name="img2" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_05\切图\page3_02.png" type="bitmapdata"/>
+        <property name="x" value="153" type="number"/>
+        <property name="y" value="837" type="number"/>
+        <property name="width" value="487" type="number"/>
+        <property name="height" value="21" type="number"/>
+      </window>
+      <window name="imgTop" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\page10-02.png" type="bitmapdata"/>
+        <property name="x" value="271.5" type="number"/>
+        <property name="y" value="23" type="number"/>
+        <property name="width" value="97" type="number"/>
+        <property name="height" value="117" type="number"/>
+      </window>
+      <window name="imgMove1" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\page10-03.png" type="bitmapdata"/>
+        <property name="x" value="106" type="number"/>
+        <property name="y" value="304" type="number"/>
+        <property name="width" value="424" type="number"/>
+        <property name="height" value="97" type="number"/>
+      </window>
+      <window name="imgMove2" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200430_03\切图\page10_1.png" type="bitmapdata"/>
+        <property name="x" value="-51" type="number"/>
+        <property name="y" value="426" type="number"/>
+        <property name="width" value="740" type="number"/>
+        <property name="height" value="170" type="number"/>
+      </window>
+      <window name="imgBot" desc="" type="com.easyegret.ui.Image" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\page10-05.png" type="bitmapdata"/>
+        <property name="x" value="240" type="number"/>
+        <property name="y" value="867" type="number"/>
+        <property name="width" value="163" type="number"/>
+        <property name="height" value="80" type="number"/>
+      </window>
+      <window name="btnPage" desc="" type="com.easyegret.ui.Button" template="false">
+        <property name="texture" value="E:\items\2020\UI\438_20200325_01\page10-06.png" type="bitmapdata"/>
+        <property name="width" value="133" type="number"/>
+        <property name="height" value="47" type="number"/>
+        <property name="x" value="27" type="number"/>
+        <property name="y" value="883" type="number"/>
+      </window>
+    </window>
+    <window name="temp" desc="" path="courseware/temp.xml" type="CLASS" template="true">
+      <property name="x" value="540" type="number"/>
+      <property name="rightEnabled" value="true" type="boolean"/>
+    </window>
+  </window>
+  <resources>
+    <res id="11" merger="false">E:\items\2020\UI\438_20200325_01\效果图\11.jpg</res>
+  </resources>
+</ui>

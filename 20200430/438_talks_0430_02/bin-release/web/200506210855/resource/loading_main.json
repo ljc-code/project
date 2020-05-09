@@ -1,0 +1,9 @@
+{
+"resources":[
+    {"name":"loading_img","type":"image","url":"assets/ui/courseware/loading_200506182302.png"},
+    {"name":"loading_json","type":"json","url":"assets/ui/courseware/loading_200506182302.json"}
+],
+"groups":[
+    {"name":"loading_main","keys":"loading_img,loading_json"}
+]
+}

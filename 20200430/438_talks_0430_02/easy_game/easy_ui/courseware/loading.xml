@@ -1,0 +1,15 @@
+<ui>
+  <window name="loading" desc="" ui="loadingmain" type="com.easyegret.ui.Group" template="false">
+    <property name="showBg" value="false" type="boolean"/>
+    <property name="border" value="false" type="boolean"/>
+    <property name="width" value="640" type="number"/>
+    <property name="height" value="960" type="number"/>
+    <window name="img" desc="" type="com.easyegret.ui.Image" template="false">
+      <property name="texture" value="E:\items\2020\UI\438_20200430_01\切图\Page1-1.png" type="bitmapdata"/>
+      <property name="width" value="568" type="number"/>
+      <property name="height" value="135" type="number"/>
+      <property name="visible" value="false" type="boolean"/>
+    </window>
+  </window>
+  <resources/>
+</ui>

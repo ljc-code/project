@@ -1,0 +1,9 @@
+{
+"resources":[
+    {"name":"temp_img","type":"image","url":"assets/ui/courseware/temp_200506131851.png"},
+    {"name":"temp_json","type":"json","url":"assets/ui/courseware/temp_200506131851.json"}
+],
+"groups":[
+    {"name":"courseware_temp","keys":"temp_img,temp_json"}
+]
+}

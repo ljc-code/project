@@ -1,0 +1,10 @@
+{
+"resources":[
+    {"name":"index12_img","type":"image","url":"assets/ui/courseware/index12_200508173948.png"},
+    {"name":"index12_json","type":"json","url":"assets/ui/courseware/index12_200508173948.json"},
+    {"name":"11","type":"image","url":"assets/ui/courseware/11.jpg?ver=200508173948"}
+],
+"groups":[
+    {"name":"courseware_index12","keys":"index12_img,index12_json,11"}
+]
+}

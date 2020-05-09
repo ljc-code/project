@@ -1,0 +1,11 @@
+{
+"resources":[
+    {"name":"index2_img","type":"image","url":"assets/ui/courseware/index2_200507170231.png"},
+    {"name":"index2_json","type":"json","url":"assets/ui/courseware/index2_200507170231.json"},
+    {"name":"2","type":"image","url":"assets/ui/courseware/2.jpg?ver=200507170231"},
+    {"name":"page08-03","type":"image","url":"assets/ui/courseware/page08-03.png?ver=200507170231"}
+],
+"groups":[
+    {"name":"courseware_index2","keys":"index2_img,index2_json,2,page08-03"}
+]
+}
